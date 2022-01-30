@@ -1,0 +1,8 @@
+﻿  Source.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(9531,5): warning C5105: macro expansion producing 'defined' has undefined behavior
+  Generating code
+  1 of 18 functions ( 5.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Hey that's my fish.vcxproj -> C:\Users\Gopmur\Desktop\My files\Ferdosi\Project\Hey that's my fish\x64\Release\Hey that's my fish.exe
