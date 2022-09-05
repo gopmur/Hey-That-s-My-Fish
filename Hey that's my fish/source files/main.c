@@ -115,6 +115,11 @@ int main() {
     check_init(timer, "Timer", &error);
     check_init(queue, "Event queue", &error);
     check_init(display, "Display", &error);
+    if (!gameData.font_l) {
+        gameData.font_l = al_load_ttf_font("../../Hey that's my fish/fonts/ThaleahFat.ttf", gameData.fontSize_l, 0);
+        gameData.font_m = al_load_ttf_font("../../Hey that's my fish/fonts/ThaleahFat.ttf", gameData.fontSize_m, 0);
+        gameData.font_s = al_load_ttf_font("../../Hey that's my fish/fonts/ThaleahFat.ttf", gameData.fontSize_s, 0);
+    }
     check_init(gameData.font_l, "Font \"ThaleahFat.ttf\"", &error);
 
     // if any errors occurred ends the program

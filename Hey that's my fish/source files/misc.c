@@ -28,7 +28,6 @@ void check_init(bool function, char *description, bool *error) {
         printf("%s failed to initialize\n", description);
         *error = true;
     }
-    return;
 }
 
 bool validate_move(GameData gameData) {
